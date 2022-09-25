@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Belajar HTML minggu ke-3</title>
+	</head>
+	<body>
+	<button onclick="playVid()" type="button">Play Video</button>
+	<button onclick="pauseVid()" type="button">Pause Video</button>
+	<button onclick="durationVid()" type="button">Duration Video</button>
+		<h2>Video HTML (minggu 3)</h2>
+		<p>Eka Wahyu Utami (A11.2022.14028)</p>
+		<video id="myVideo" width="320" height="300" controls>
+			<source src="video.mp4" type="video/mp4">
+		</video>
+	</body>
+	<script>
+	var vid = document.getElementById("myVideo");
+	
+	function playVid()
+	{
+		vid.play();
+	}
+	
+	function pauseVid()
+	{
+		vid.pause();
+	}
+	
+	function durationVid()
+	{
+		alert(vid.duration);
+	}
+	</script>
+</html>
