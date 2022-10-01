@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulir Pendaftaran SMA NEO</title>
+	</head>
+	<body>
+		<h2 align="center">Formulir Pendaftaran SMA NEO</h2>
+		<form id="form1" name="form1" method="post" action="kirim.php">
+		<table>
+			<tr>
+				<td>Nomor Pendaftaran </td>
+				<td><input type="number" name="fnmr_pndftrn"></td>
+			</tr>
+			<tr>
+				<td>NISN </td>
+				<td><input type="number" name="fnisn"></td>
+			</tr>
+			<tr>
+				<td>Nama Lengkap </td>
+				<td><input ="text" name="fnama"></td>
+			</tr>
+			<tr>
+				<td>Tempat, Tanggal Lahir </td>
+				<td><input type="text" name="ftmpt_lhr"> <input type="date" name="ftgl_lhr"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin </td>
+				<td>
+					<select name="fjns_kelamin">
+						<option value="">Jenis Kelamin</option>
+						<option value="L">Laki-Laki</option>
+						<option value="P">Perempuan</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Agama </td>
+				<td>
+				<input type="radio" name="fagama">Islam
+				<input type="radio" name="fagama">Kristen
+				<input type="radio" name="fagama">Katolik
+				<input type="radio" name="fagama">Buddha
+				<input type="radio" name="fagama">Hindu
+				<input type="radio" name="fagama">Lain-Lain
+				</td>
+			</tr>
+			<tr>
+				<td>Alamat </td>
+				<td><textarea name="falamat" rows="3" cols="20"></textarea></td>
+			</tr>
+			<tr>
+				<td>Asal Sekolah </td>
+				<td><input type="text" name="fasal_sklh"></td>
+			</tr>
+			<tr>
+				<td>No. Telfon </td>
+				<td><input type="number" name="fnmr_telfon"></td>
+			</tr>
+			<tr>
+				<td>E-Mail </td>
+				<td><input type="text" name="femail"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit" name="fsubmit" value="Submit"> 
+				<input type="reset" name="freset" value="Reset"</td>
+			</tr>
+		</table>
+		</form>
+	</body>
+</html>
