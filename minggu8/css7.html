@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contoh Selector Atribut</title>
+		<style>
+		h2 {
+			text-align: center;
+			font-family: georgia;
+			background-color: #8fbc8f;
+			padding: 20px;
+		}
+		
+		input[type=text] {
+			color: black;
+			margin: 8px 0;
+			padding: 10px;
+			border: 2px solid burlywood;
+			width: 50%;
+			border-radius: 3px;
+		}
+		
+		input[type=submit] {
+			width: 50%;
+			border: #e9967a;
+			background-color: #e9967a;
+			padding: 14px;
+			margin: 15px 0;
+			border-radius: 3px;
+		}
+		
+		div {
+			border-radius: 3px;
+			background-color: cadetblue;
+			opacity: 0,3;
+			padding: 20px;
+		}
+		</style>
+	</head>
+	<body>
+		<h2>Kritik dan Saran</h2>
+		<div>
+			<label for="fname">Nama</label><br />
+			<input type="text" id="fname" name="name" placeholder="Your name...">
+			<br />
+			
+			<label for="femail">E-mail</label><br />
+			<input type="text" id="femail" name="email" placeholder="youremail@gmail.com">
+			<br />
+			
+			<label for="country">Country</label><br />
+			<select id="country" name="country">
+				<option value="">Country</option>
+				<option value="Indonesia">Indonesia</option>
+				<option value="Malaysia">Malaysia</option>
+				<option value="Singapura">Singapura</option>
+			</select>
+			<br />
+			
+			<input type="submit" value="Submit">
+		</div>
+	</body>
+</html>
