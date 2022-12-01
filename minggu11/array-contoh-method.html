@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Array Contoh Method</title>
+	</head>
+	<body>
+		<script>
+			//method filter
+			const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+			
+			//ambil data habis dibagi dua
+			const filteredArray = angka.filter(item => item % 2 === 0);
+			
+			console.log(filteredArray)
+			
+			//method includes
+			var tanaman = ["Padi", "Kacang", "Jagung", " Kedelai"];
+			
+			//mengecek data dalam array
+			var adaKacang = tanaman.includes("Kacang");
+			
+			console.log(adaKacang);
+			
+			var adaBayam = tanaman.includes("Bayam");
+			
+			console.log(adaBayam);
+			
+			//method short
+			var alfabet = ['a', 'f', 'z', 'e', 'r', 'g'];
+			var number = [3, 1, 2, 6, 8, 5];
+			
+			console.log(alfabet.sort());
+			console.log(number.sort());
+		</script>
+	</body>
+</html>
