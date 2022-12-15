@@ -1,0 +1,58 @@
+[
+    {
+        "nim"    :"14039",
+        "nama"   :"Nur aqliah ilmi",
+        "alamat" :"Pemalang",
+        "jurusan":"teknik informatika",
+        "MK"     :[
+            {
+                "mk_kode"   : "101",
+                "nama_mk"   : "sistem basis data"
+            },
+            {
+                "mk_kode"   : "102",
+                "nama_mk"   : "aljabar linier"
+            },
+            {
+                "mk_kode"   : "103",
+                "nama_mk"   : "analisa algoritma"
+            },
+            {
+                "mk_kode"   : "104",
+                "nama_mk"   : "kecerdasan buatan"
+            },
+            {
+                "mk_kode"   : "105",
+                "nama_mk"   : "jaringan komputer"
+            }
+        ]
+    },
+    {
+        "nim"    :"1236",
+        "nama"   :"mira rahmawan",
+        "alamat" :"Pemalang",
+        "jurusan":"sistem informasi",
+        "MK"     :[
+            {
+                "mk_kode"   : "301",
+                "nama_mk"   : "analisa proses bisnis"
+            },
+            {
+                "mk_kode"   : "302",
+                "nama_mk"   : "database terdistribusi"
+            },
+            {
+                "mk_kode"   : "303",
+                "nama_mk"   : "etika profesi"
+            },
+            {
+                "mk_kode"   : "304",
+                "nama_mk"   : "rekayasa web"
+            },
+            {
+                "mk_kode"   : "305",
+                "nama_mk"   : "audit sistem informasi"
+            }
+        ]
+    }
+]
